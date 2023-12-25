@@ -40,6 +40,8 @@ try
             int speed_1 = int.Parse(Console.ReadLine());
             bus.info_bus(name_1,bak_1,mass_1,lineage_1,gas_per_100_km_1,speed_1,length_1);
             bus.move();
+            Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
+            Console.ReadKey();
             break;
         case ConsoleKey.X:
             Console.WriteLine();

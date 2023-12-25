@@ -62,7 +62,6 @@ namespace avto__
                     lineage += speed;
                     full_length += speed;
                     bak -= (speed / 100) * gas_per_100_km;
-                    infoOut();
                     
                     if (weight > 1500)
                     {
@@ -156,36 +155,42 @@ namespace avto__
                     case ConsoleKey.A:
                         Console.WriteLine();
                         infoOut();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.S:
                         Console.WriteLine();
                         zapravka();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.D:
                         Console.WriteLine();
                         ostanovka();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.F:
                         Console.WriteLine();
                         boost_breaking();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.G:
                         Console.WriteLine();
                         zagruzka();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.H:
                         Console.WriteLine();
                         razgruzka();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;

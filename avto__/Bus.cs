@@ -129,36 +129,42 @@ namespace avto__
                     case ConsoleKey.A:
                         Console.WriteLine();
                         infoOut();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.S:
                         Console.WriteLine();
                         zapravka();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.D:
                         Console.WriteLine();
                         ostanovka();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.F:
                         Console.WriteLine();
                         boost_breaking();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.G:
                         Console.WriteLine();
                         passaj_vpusk();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;
                     case ConsoleKey.H:
                         Console.WriteLine();
                         passaj_vipusk();
+                        Console.WriteLine();
                         Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
                         Console.ReadKey();
                         break;

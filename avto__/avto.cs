@@ -14,6 +14,7 @@ namespace avto__
         protected string name;
         protected float bak;
         protected int mass;
+        protected float ful_bak;
         protected float lineage;
         protected float gas_per_100_km;
         protected float speed;
@@ -35,6 +36,7 @@ namespace avto__
             distantion = random.Next(1200, 2000);
             direction = random.Next(4);
             this.length = length;
+            ful_bak = bak;
             avtopark.Add(this);
         }
         protected virtual void infoOut()
@@ -87,18 +89,15 @@ namespace avto__
         {
             for (int i = 0; i < avtopark.Count-1; i++)
             {
-                if ((avtopark[i].direction == direction) && (length - distantion - avtopark[i].distantion < 0))
+                if ((avtopark[i].direction == direction))
                 {
-                    float temp = length - distantion - avtopark[i].distantion;
-                    Console.WriteLine($"Вы врежитесь в автомобиль номер " + i + " в " + -temp + " точках");
-                    
+                    Console.WriteLine($"Вы врежитесь в автомобиль номер " + i + " в " + avtopark[i].distantion + " точках");
+                    Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
+                    Console.ReadKey();
                 }
-                Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
-                Console.ReadKey();
-                break;
+                
             }
             weight = mass;
-            
         }
     }
 }
