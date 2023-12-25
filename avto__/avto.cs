@@ -91,10 +91,11 @@ namespace avto__
                 {
                     float temp = length - distantion - avtopark[i].distantion;
                     Console.WriteLine($"Вы врежитесь в автомобиль номер " + i + " в " + -temp + " точках");
-                    Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
-                    Console.ReadKey();
-                    break;
+                    
                 }
+                Console.WriteLine("Нажмите на любую кнопку, чтобы продолжить");
+                Console.ReadKey();
+                break;
             }
             weight = mass;
             

@@ -1,0 +1,14 @@
+C:\Users\LiS\source\repos\avto__\avto__\bin\Debug\net6.0\avto__.exe
+C:\Users\LiS\source\repos\avto__\avto__\bin\Debug\net6.0\avto__.deps.json
+C:\Users\LiS\source\repos\avto__\avto__\bin\Debug\net6.0\avto__.runtimeconfig.json
+C:\Users\LiS\source\repos\avto__\avto__\bin\Debug\net6.0\avto__.dll
+C:\Users\LiS\source\repos\avto__\avto__\bin\Debug\net6.0\avto__.pdb
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.AssemblyInfoInputs.cache
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.AssemblyInfo.cs
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.csproj.CoreCompileInputs.cache
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.dll
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\refint\avto__.dll
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.pdb
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\avto__.genruntimeconfig.cache
+C:\Users\LiS\source\repos\avto__\avto__\obj\Debug\net6.0\ref\avto__.dll

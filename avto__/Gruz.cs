@@ -26,19 +26,16 @@ namespace avto__
         }
         protected virtual void zagruzka()
         {
-            templ = 0;
-            while (templ == 0)
+            Console.WriteLine("Введите сколько нужно загрузить. Максимум 100");
+            int dop_weight = int.Parse(Console.ReadLine());
+            if ((dop_weight > 100) || (dop_weight < 0))
             {
-                Console.WriteLine("Введите сколько нужно загрузить. Максимум 100");
-                int dop_weight = int.Parse(Console.ReadLine());
-                if ((dop_weight > 100) || (dop_weight < 0))
-                {
-                    Console.WriteLine("Слишком много или слишком мало");
-                    templ = 1;
-                }
-                weight += dop_weight;
-                Console.WriteLine("Вес сейчас: " + weight);
+                Console.WriteLine("Слишком много или слишком мало");
+                return;
             }
+            weight += dop_weight;
+            Console.WriteLine("Вес сейчас: " + weight);
+            
         }
         protected virtual void razgruzka() 
         {
@@ -111,6 +108,7 @@ namespace avto__
                     if (bak <= 0)
                     {
                         Console.WriteLine("Бак пуст.\nХотите заправиться?\nQ - да\nW - нет");
+                        Console.WriteLine();
                         switch (Console.ReadKey().Key)
                         {
                             case ConsoleKey.Q:
@@ -127,6 +125,7 @@ namespace avto__
                     if (speed <= 0)
                     {
                         Console.WriteLine("Недостаточная скорость\n Хотите ли вы разогнаться?\nQ - да\nW - нет");
+                        Console.WriteLine();
                         switch (Console.ReadKey().Key)
                         {
                             case ConsoleKey.Q:
